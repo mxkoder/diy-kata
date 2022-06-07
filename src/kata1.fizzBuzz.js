@@ -8,10 +8,9 @@ const fizzBuzz = number => {
   if (number % 3 === 0 || number % 5 === 0) {
     return "FizzBuzz";
   }
-  if (number === 0){
-      return 0;
-  }
   return number;
 };
+
+// cleaner solution: 'FizzBuzz' first, then other if statements are shorter
 
 module.exports = fizzBuzz;
