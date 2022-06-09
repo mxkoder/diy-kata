@@ -25,3 +25,11 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(152)).toEqual(152);
   });
 });
+
+
+/* alternate:
+ it("returns Fizz when passed a multiple of 3", () => {
+    const numbers = [3, 6, 9, 12, 18, 21, 24];
+    const results = ["Fizz", "Fizz", "Fizz", "Fizz", "Fizz", "Fizz", "Fizz"];
+    expect(numbers.map(number => fizzBuzz(number))).toStrictEqual(results);
+  }); */
